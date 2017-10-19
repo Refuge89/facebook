@@ -3,6 +3,6 @@
 # (c) www.hackingyseguridad.com 2017
 echo
 echo
-echo "Uso: ./facebook <Numero_telefono>"
+echo "Uso: ./facebook.sh <Numero_telefono>"
 echo
 curl https://www.facebook.com/search/top/?q=$1 |grep EntRegularPersonalUser
