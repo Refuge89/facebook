@@ -1,8 +1,8 @@
-#!/bin/sh
-# Script de consulta a facebook por numero de telefono movil
-# (c) www.hackingyseguridad.com 2017
-echo
-echo
-echo "Uso: ./facebook.sh <Numero_telefono>"
-echo
-curl https://www.facebook.com/search/top/?q=$1 |grep EntRegularPersonalUser
+#!/bin/bash
+
+var=673298000
+
+while :	;
+	var=$((var+1));
+do python facebook.py $var; 
+	sleep 1; done
